@@ -1,0 +1,27 @@
+.about-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.about-left-img{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
+}
+.about-right-head h1{
+    font-size: 2.5rem;
+}
+.about-right-head p{
+padding: 1rem 0rem 1rem 0rem;
+}
+.about-btn-container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.dwn-cv{
+    background-color:blueviolet !important;
+}

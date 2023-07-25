@@ -10,6 +10,9 @@
   --bg-color:hsl(228, 15%, 20%);
   --container-color:hsl(228,15%,15%);
   --text-color:hsl(228,8%,65%)
+  --second-bg-color:#323946;
+  --text-color:#fff;
+  --main-color:#0ef;
 }
 body{
 background-color:var(--bg-color);
@@ -26,4 +29,22 @@ h1,h2,h3,h4{
 }
 a{
   text-decoration: none;
+}
+.progess-bar-container{
+  margin-top: 1rem;
+}
+button{
+  background-color: darkcyan;
+  border: none;
+  outline: none;
+
+  color: white;
+  padding: .5rem 2rem .5rem 2rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover{
+ background-color: black;
+ transition: .4s all ease;
 }

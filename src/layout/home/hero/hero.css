@@ -43,21 +43,7 @@
   .btn-container{
     margin-top: 2rem;
   }
-  button{
-    background-color: darkcyan;
-    border: none;
-    outline: none;
-
-    color: white;
-    padding: .5rem 2rem .5rem 2rem;
-    border-radius: .25rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  button:hover{
-   background-color: black;
-   transition: .4s all ease;
-  }
+ 
   .social-link{
     display: flex;
     align-items: center;
